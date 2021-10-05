@@ -5,6 +5,7 @@
   --secondary-text-color: #757575;
   --white-color: #ffffff;
   --accent-color: #2196f3;
+  --hero-btn-accent-color: #188ce8;
   --background-color-dark: #2f303a;
   --background-color-light: #f5f4fa;
   --primary-header-color: #ffffff;
@@ -105,6 +106,11 @@
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-btn-accent-color);
 }
 
 /* Типовий розділ */
