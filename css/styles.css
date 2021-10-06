@@ -25,6 +25,26 @@
   background-color: var(--white-color);
 }
 
+/* Обнулення стилів  */
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.about-list-item {
+  line-height: 0px;
+}
+
+/* Центрування тексту сторінки  */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+}
+
 /* Логотип */
 
 .logo {
@@ -36,19 +56,7 @@
   color: var(--logo-color);
 }
 
-.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
 /* Меню навігації */
-
-/*.menu-item {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 32px;
-}*/
 
 .site-nav,
 .header-contacts {
@@ -90,6 +98,7 @@
 }
 
 .hero-title {
+  margin: 0px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -116,22 +125,27 @@
 /* Типовий розділ */
 
 .section-title {
+  margin: 0px;
   font-size: 36px;
   line-height: 1.17;
 }
 
-/* Розділ Чем мы занимаемся */
+/* Розділ Особенности */
 
 .about-subtitle {
+  margin: 0px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .about-text {
+  margin: 0px;
   font-size: 14px;
   color: var(--secondary-text-color);
 }
+
+/* Розділ Чем мы занимаемся */
 
 /* Розділ Наша команда */
 
@@ -140,12 +154,14 @@
 }
 
 .team-name {
+  margin: 0px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
 }
 
 .team-position {
+  margin: 0px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
@@ -167,27 +183,26 @@
   color: var(--white-color);
 }
 
-/* address {
+.footer-address {
   font-style: inherit;
-} */
+}
 
 .post-address {
+  margin: 0px;
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
 }
 
 .footer-contacts-link {
   text-decoration: none;
-  font-style: normal;
   color: var(--footer-contatcs-color);
 }
 
 /* Розділ Портфолио */
 
-.portfolio-title {
+/* .portfolio-title {
   display: none;
-}
+} */
 
 .btn {
   text-align: center;
