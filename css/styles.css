@@ -167,6 +167,10 @@
   color: var(--white-color);
 }
 
+/* address {
+  font-style: inherit;
+} */
+
 .post-address {
   font-size: 14px;
   font-weight: 400;
