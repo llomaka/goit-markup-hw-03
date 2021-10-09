@@ -287,8 +287,13 @@
   text-decoration: none;
 }
 
+.portfolio-image {
+  margin-bottom: 20px;
+}
+
 .portfolio-name {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 4px;
 
   font-size: 18px;
   line-height: 2;
