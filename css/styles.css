@@ -40,7 +40,7 @@
   margin: -1px;
 }
 
-/* Обнулення стилів  */
+/* Загальні стилі  */
 
 .list {
   padding: 0px;
@@ -51,6 +51,15 @@
 
 .about-list-item {
   line-height: 0px;
+}
+
+.section-top {
+  padding-top: 94px;
+}
+
+.section-top-bottom {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Центрування тексту сторінки  */
@@ -120,7 +129,8 @@
 }
 
 .hero-title {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 
   font-size: 44px;
   font-weight: 900;
@@ -154,7 +164,8 @@
 /* Типовий розділ */
 
 .section-title {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 
   font-size: 36px;
   line-height: 1.17;
@@ -171,7 +182,8 @@
 }
 
 .about-text {
-  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   font-size: 14px;
   color: var(--secondary-text-color);
 }
@@ -203,6 +215,9 @@
 /* Нижній колонтитул */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--background-color-dark);
   color: var(--white-color);
 }
@@ -262,6 +277,10 @@
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.btn-items {
+  margin-bottom: 50px;
 }
 
 .portfolio-link {
