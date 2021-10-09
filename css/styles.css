@@ -15,8 +15,6 @@
 }
 
 .page {
-  /* margin: 0px; */
-
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -53,6 +51,12 @@
   line-height: 0px;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+}
+
 .section-top {
   padding-top: 94px;
 }
@@ -62,14 +66,10 @@
   padding-bottom: 94px;
 }
 
-/* Центрування тексту сторінки  */
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+.team-image,
+.portfolio-image,
+.about-image {
+  display: block;
 }
 
 /* Логотип */
@@ -100,6 +100,7 @@
 
   color: var(--primary-text-color);
 }
+
 .site-nav-link:hover,
 .site-nav-link:focus,
 .logo-highlight,
@@ -119,6 +120,36 @@
 .footer-contacts-link:focus,
 .post-address:hover {
   color: var(--accent-color);
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.menu-item:not(:last-child),
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Головний розділ сайту */
@@ -174,7 +205,8 @@
 /* Розділ Особенности */
 
 .about-subtitle {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 
   font-size: 14px;
   line-height: 1.14;
@@ -182,8 +214,7 @@
 }
 
 .about-text {
-  margin-top: 10px;
-  margin-bottom: 0px;
+  margin: 0px;
   font-size: 14px;
   color: var(--secondary-text-color);
 }
@@ -196,8 +227,13 @@
   background-color: var(--background-color-light);
 }
 
+.team-image {
+  margin-bottom: 30px;
+}
+
 .team-name {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 
   font-size: 16px;
   font-weight: 500;

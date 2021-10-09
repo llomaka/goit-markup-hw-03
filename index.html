@@ -22,8 +22,8 @@
   </head>
   <body class="page">
     <header>
-      <div class="container">
-        <nav>
+      <div class="container main-menu">
+        <nav class="navigation">
           <a class="logo" href="./index.html">
             <span class="logo-highlight">Web</span>Studio
           </a>
@@ -35,17 +35,17 @@
               <a class="site-nav-link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="menu-item">
-              <a class="site-nav-link" href="">Контакты</a>
+              <a class="site-nav-link" href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contacts list">
-          <li>
+          <li class="header-contacts-item">
             <a class="header-contacts-link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="header-contacts-item">
             <a class="header-contacts-link" href="tel:+380961111111">
               +38 096 111 11 11
             </a>
@@ -102,6 +102,7 @@
           <ul class="about-list list">
             <li class="about-list-item">
               <img
+                class="about-image"
                 src="./images/box-1.jpg"
                 alt="Человек работает за компьютером и планшетом"
                 width="370"
@@ -109,6 +110,7 @@
             </li>
             <li class="about-list-item">
               <img
+                class="about-image"
                 src="./images/box-2.jpg"
                 alt="Человек работает за ноутбуком со сматрфоном"
                 width="370"
@@ -116,6 +118,7 @@
             </li>
             <li class="about-list-item">
               <img
+                class="about-image"
                 src="./images/box-3.jpg"
                 alt="Человек держит в руках планшет и стилус"
                 width="370"
@@ -130,6 +133,7 @@
           <ul class="list">
             <li>
               <img
+                class="team-image"
                 src="./images/IhorDemyanenko.jpg"
                 alt="Фото Игоря Демьяненко"
                 width="270"
@@ -139,6 +143,7 @@
             </li>
             <li>
               <img
+                class="team-image"
                 src="./images/OlhaRepina.jpg"
                 alt="Фото Ольги Репиной"
                 width="270"
@@ -148,6 +153,7 @@
             </li>
             <li>
               <img
+                class="team-image"
                 src="./images/NikolayTarasov.jpg"
                 alt="Фото Николая Тарасова"
                 width="270"
@@ -157,6 +163,7 @@
             </li>
             <li>
               <img
+                class="team-image"
                 src="./images/MikhailErmakov.jpg"
                 alt="Фото Михаила Ермакова"
                 width="270"
@@ -174,7 +181,7 @@
         <a class="footer-logo" href="./index.html">
           <span class="logo-highlight">Web</span>Studio
         </a>
-        <address class="footer-address">
+        <address class="footer-address" id="contacts">
           <p class="post-address">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="footer-contacts list">
             <li>
