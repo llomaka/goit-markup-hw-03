@@ -9,6 +9,7 @@
   --background-color-dark: #2f303a;
   --background-color-light: #f5f4fa;
   --primary-header-color: #ffffff;
+  --header-border-color: #ececec;
   --logo-color: #000000;
   --footer-logo-color: #ffffff;
   --footer-contatcs-color: rgba(255, 255, 255, 0.6);
@@ -47,9 +48,9 @@
   list-style: none;
 }
 
-.about-list-item {
+/* .about-list-item {
   line-height: 0px;
-}
+} */
 
 .container {
   margin: 0 auto;
@@ -76,6 +77,7 @@
 
 .logo {
   text-decoration: none;
+  margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -86,6 +88,10 @@
 }
 
 /* Меню навігації */
+
+.header {
+  border: 1px solid var(--header-border-color);
+}
 
 .site-nav,
 .header-contacts {
@@ -129,17 +135,9 @@
   height: 80px;
 }
 
-.logo {
-  margin-right: 93px;
-}
-
 .menu {
   display: flex;
   align-items: center;
-}
-
-.navigation {
-  display: flex;
 }
 
 .menu-item:not(:last-child),
@@ -150,6 +148,7 @@
 .header-contacts {
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
 }
 
 /* Головний розділ сайту */
