@@ -289,6 +289,9 @@
 }
 
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -313,6 +316,15 @@
   text-decoration: none;
 
   color: var(--footer-contatcs-color);
+}
+
+.footer-contacts-item {
+  display: block;
+}
+
+.post-address,
+.footer-contacts-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /* Розділ Портфолио */
