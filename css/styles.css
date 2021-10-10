@@ -10,6 +10,7 @@
   --background-color-light: #f5f4fa;
   --primary-header-color: #ffffff;
   --header-border-color: #ececec;
+  --grid-border-color: #eeeeee;
   --logo-color: #000000;
   --footer-logo-color: #ffffff;
   --footer-contatcs-color: rgba(255, 255, 255, 0.6);
@@ -67,6 +68,15 @@
   padding-bottom: 94px;
 }
 
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .team-image,
 .portfolio-image,
 .about-image {
@@ -118,6 +128,7 @@
 
 .header-contacts-link {
   text-decoration: none;
+  padding: 32px 0px;
 
   color: var(--secondary-text-color);
 }
@@ -192,16 +203,6 @@
   background-color: var(--hero-btn-accent-color);
 }
 
-/* Типовий розділ */
-
-.section-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
-
-  font-size: 36px;
-  line-height: 1.17;
-}
-
 /* Розділ Особенности */
 
 .features-list {
@@ -229,14 +230,38 @@
 
 /* Розділ Чем мы занимаемся */
 
+.about-list {
+  display: flex;
+}
+
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Розділ Наша команда */
 
 .team {
   background-color: var(--background-color-light);
 }
 
+.team-list {
+  display: flex;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-item {
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: var(--white-color);
+}
+
 .team-image {
   margin-bottom: 30px;
+  border-radius: 0px;
 }
 
 .team-name {
@@ -250,6 +275,7 @@
 
 .team-position {
   margin: 0px;
+  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -304,7 +330,6 @@
   display: inline-block;
   padding: 6px 22px;
   border-color: transparent;
-  height: 38px;
 
   font-family: inherit;
   font-size: 16px;
@@ -323,8 +348,17 @@
   cursor: pointer;
 }
 
+.btn-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn-items {
   margin-bottom: 50px;
+}
+
+.btn-items {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-list {
@@ -334,6 +368,7 @@
 
 .portfolio-item {
   width: calc((100% - 2 * 30px) / 3);
+  border: 1px solid var(--grid-border-color);
 }
 
 .portfolio-item:not(:nth-child(3n)) {
@@ -350,6 +385,10 @@
 
 .portfolio-image {
   margin-bottom: 20px;
+}
+
+.portfolio-caption {
+  padding: 20px 24px;
 }
 
 .portfolio-name {
