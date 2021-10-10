@@ -371,7 +371,6 @@
 
 .portfolio-item {
   width: calc((100% - 2 * 30px) / 3);
-  border: 1px solid var(--grid-border-color);
 }
 
 .portfolio-item:not(:nth-child(3n)) {
@@ -388,6 +387,7 @@
 
 .portfolio-caption {
   padding: 20px 24px;
+  border: 1px solid var(--grid-border-color);
 }
 
 .portfolio-name {
