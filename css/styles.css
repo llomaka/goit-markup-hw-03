@@ -33,8 +33,8 @@
   width: 1px;
   height: 1px;
   overflow: hidden;
-  border: 0;
-  padding: 0;
+  border: 0px;
+  padding: 0px;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
@@ -96,7 +96,7 @@
 /* Меню навігації */
 
 .header {
-  border: 1px solid var(--header-border-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .site-nav,
@@ -145,7 +145,6 @@
 
 .menu {
   display: flex;
-  align-items: center;
 }
 
 .menu-item:not(:last-child),
@@ -155,7 +154,6 @@
 
 .header-contacts {
   display: flex;
-  justify-content: space-between;
   margin-left: auto;
 }
 
@@ -307,9 +305,6 @@
 
 .post-address {
   margin: 0px;
-
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .footer-contacts-link {
