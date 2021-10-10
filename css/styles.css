@@ -55,11 +55,7 @@
   padding: 0 15px;
 }
 
-.section-top {
-  padding-top: 94px;
-}
-
-.section-top-bottom {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -198,6 +194,10 @@
 }
 
 /* Розділ Особенности */
+
+.features.section {
+  padding-bottom: 0px;
+}
 
 .features-list {
   display: flex;
