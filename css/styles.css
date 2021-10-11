@@ -203,6 +203,10 @@
   display: flex;
 }
 
+.features-item {
+  width: calc((100% - 3 * 30px) / 4);
+}
+
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -226,6 +230,10 @@
 
 .about-list {
   display: flex;
+}
+
+.about-item {
+  width: calc((100% - 2 * 30px) / 3);
 }
 
 .about-list-item:not(:last-child) {
@@ -254,8 +262,11 @@
 }
 
 .team-image {
-  margin-bottom: 30px;
   border-radius: 0px;
+}
+
+.team-caption {
+  padding: 30px 15px;
 }
 
 .team-name {
@@ -269,7 +280,6 @@
 
 .team-position {
   margin: 0px;
-  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
